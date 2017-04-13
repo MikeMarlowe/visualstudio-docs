@@ -86,7 +86,6 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 
 | **Advanced install options** | **Description** |
 | ----------------------- | --------------- |  
-| ```--channelId <id>``` | **Optional**: The ID of the channel for the instance that will be installed. This is required for the install command, ignored for other commands if --installPath is specified. |
 | ```--channelUri <uri>``` | **Optional**: The URI of the channel manifest. This can be used for the install command; it is ignored for other commands. |
 | ```--installChannelUri <uri>``` | **Optional**: The URI of the channel manifest to use for the installation. The URI specified by --channelUri (which must be specified when --installChannelUri is specified) will be used to detect updates. If updates are not desired, --channelUri must be specified without an argument. This can be used for the install command; it is ignored for other commands. |
 | ```--installCatalogUri <uri>``` | **Optional**: The URI of the catalog manifest to use for the installation. If specified, the channel manager will attempt to download the catalog manifest from this URI before using the URI in the install channel manifest. This parameter is used to support offline install, where the layout cache will be created with the product catalog already downloaded. This can be used for the install command; it is ignored for other commands. |
